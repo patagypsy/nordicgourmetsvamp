@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+
+  <!-- White background -->
+  <rect width="300" height="300" fill="white"/>
+
+  <!-- Outer badge rectangle -->
+  <rect x="15" y="58" width="270" height="184" rx="5"
+        fill="none" stroke="#1c2b1c" stroke-width="2.5"/>
+
+  <!-- Inner border -->
+  <rect x="23" y="66" width="254" height="168" rx="3"
+        fill="none" stroke="#1c2b1c" stroke-width="0.75"/>
+
+  <!-- Header label: NORDIC -->
+  <text x="150" y="103" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="13" fill="#1c2b1c" letter-spacing="8">NORDIC</text>
+
+  <!-- Top rule -->
+  <line x1="45" y1="111" x2="255" y2="111" stroke="#1c2b1c" stroke-width="0.75"/>
+
+  <!-- Main word: GOURMET -->
+  <text x="150" y="155" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="36" fill="#1c2b1c" letter-spacing="2">GOURMET</text>
+
+  <!-- Main word: SVAMP -->
+  <text x="150" y="192" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="36" fill="#1c2b1c" letter-spacing="6">SVAMP</text>
+
+  <!-- Bottom rule -->
+  <line x1="45" y1="200" x2="255" y2="200" stroke="#1c2b1c" stroke-width="0.75"/>
+
+  <!-- Footer: SMALL-SCALE · SWEDEN -->
+  <text x="150" y="218" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="8.5" fill="#1c2b1c" letter-spacing="3">SMALL-SCALE · SWEDEN</text>
+
+  <!-- Corner ornaments -->
+  <!-- Top-left -->
+  <line x1="33" y1="74" x2="50" y2="74" stroke="#1c2b1c" stroke-width="0.75"/>
+  <line x1="33" y1="74" x2="33" y2="91" stroke="#1c2b1c" stroke-width="0.75"/>
+  <!-- Top-right -->
+  <line x1="267" y1="74" x2="250" y2="74" stroke="#1c2b1c" stroke-width="0.75"/>
+  <line x1="267" y1="74" x2="267" y2="91" stroke="#1c2b1c" stroke-width="0.75"/>
+  <!-- Bottom-left -->
+  <line x1="33" y1="226" x2="50" y2="226" stroke="#1c2b1c" stroke-width="0.75"/>
+  <line x1="33" y1="226" x2="33" y2="209" stroke="#1c2b1c" stroke-width="0.75"/>
+  <!-- Bottom-right -->
+  <line x1="267" y1="226" x2="250" y2="226" stroke="#1c2b1c" stroke-width="0.75"/>
+  <line x1="267" y1="226" x2="267" y2="209" stroke="#1c2b1c" stroke-width="0.75"/>
+
+</svg>

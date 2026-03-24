@@ -95,13 +95,15 @@ nav {
   justify-content: space-between;
 }
 
-.nav-logo {
-  font-family: var(--font-sans);
-  font-size: 0.875rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--green);
+.nav-logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav-logo-img {
+  height: 38px;
+  width: auto;
 }
 
 nav ul {
