@@ -123,6 +123,38 @@ nav ul a:hover {
 }
 
 /* =====================
+   LANGUAGE SWITCHER
+   ===================== */
+.lang-switcher {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.lang-switcher button {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: var(--font-sans);
+}
+
+.lang-switcher button:hover {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.lang-switcher button.active {
+  background-color: var(--green);
+  border-color: var(--green);
+  color: var(--white);
+}
+
+/* =====================
    HERO
    ===================== */
 .hero {
