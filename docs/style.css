@@ -104,13 +104,6 @@ nav {
   color: var(--green);
 }
 
-.hero-badge {
-  display: block;
-  width: 180px;
-  height: auto;
-  margin: 1.5rem 0;
-}
-
 nav ul {
   list-style: none;
   display: flex;
